@@ -1,0 +1,203 @@
+@import "../fontawesome/scss/fontawesome.scss";
+@import "../fontawesome/scss/solid.scss";
+@import "../fontawesome/scss/brands.scss";
+
+.color{
+  background: -webkit-linear-gradient(99.42deg, #FF6161 14.73%, #FF61DC 97.52%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin caret-down{
+  @extend %fa-icon;
+  @extend .fas;
+  
+  &:after {
+    content: fa-content($fa-var-caret-down);
+  }
+}
+
+.star{
+  @extend %fa-icon;
+  @extend .fas;
+  
+  font-size: inherit;
+  font-weight: inherit;
+  &:after {
+    content: fa-content($fa-var-star);
+  }
+}
+
+.heart{
+  @extend %fa-icon;
+  @extend .fas;
+  
+  font-size: inherit;
+  font-weight: inherit;
+  &:after {
+    content: fa-content($fa-var-heart);
+  }
+}
+
+.angle-left{
+  @extend %fa-icon;
+  @extend .fas;
+  
+  font-size: inherit;
+  font-weight: inherit;
+  &:before {
+    content: fa-content($fa-var-angle-left);
+  }
+}
+
+.angle-right{
+  @extend %fa-icon;
+  @extend .fas;
+    
+  &:before {
+    content: fa-content($fa-var-angle-right);
+  }
+}
+
+.map-marker{
+  @extend %fa-icon;
+  @extend .fas;
+  
+  font-size: inherit;
+  font-weight: inherit;
+  &:after {
+    content: fa-content($fa-var-map-marker-alt);
+  }
+}
+
+.walking{
+  @extend %fa-icon;
+  @extend .fas;
+  
+  font-size: inherit;
+  font-weight: inherit;
+  &:after {
+    content: fa-content($fa-var-walking);
+  }
+}
+
+.information{
+  @extend %fa-icon;
+  @extend .fas;
+  
+  font-size: inherit;
+  font-weight: inherit;
+  &:after {
+    content: fa-content($fa-var-info-circle);
+  }
+}
+
+.coins{
+  @extend %fa-icon;
+  @extend .fas;
+  width: 20px;
+  
+  &:before {
+    content: fa-content($fa-var-coins);
+    color: $gray_light;
+    }
+}
+
+.mug{
+  @extend %fa-icon;
+  @extend .fas;
+  width: 20px;
+  &:before {
+    content: fa-content($fa-var-mug-hot);
+    color: $gray_light;
+  }
+}
+
+.wifi{
+  @extend %fa-icon;
+  @extend .fas;
+  width: 20px;
+  
+  &:before {
+    content: fa-content($fa-var-wifi);
+    color: $gray_light;
+    
+  }
+}
+
+.thermometer{
+  @extend %fa-icon;
+  @extend .fas;
+  width: 20px;
+  
+  &:before {
+    content: fa-content($fa-var-thermometer-quarter);
+    color: $gray_light;
+  }
+}
+
+.bath{
+  @extend %fa-icon;
+  @extend .fas;
+  
+  &:before {
+    content: fa-content($fa-var-bath);
+    color: $gray_light;
+  }
+}
+
+@mixin check{
+  @extend %fa-icon;
+  @extend .fas;
+  text-align: center;
+  &:before {
+    
+    content: fa-content($fa-var-check);
+    color: $pink;
+    font-size: $small_fz;
+    
+  }
+}
+
+.search {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-search);
+    color: $pink;
+    font-size: $small_fz;
+    
+  }
+}
+
+.credit-card {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-credit-card);
+  }
+}
+
+.life-ring {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-life-ring);
+  }
+}
+
+.piggy-bank {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-piggy-bank);
+  }
+}
+
+.cog {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-cog);
+  }
+}

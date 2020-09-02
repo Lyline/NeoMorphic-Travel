@@ -1,0 +1,357 @@
+@import "_color.scss";
+
+.card_reservation{
+  
+  position: relative;
+  bottom: -157px;
+  
+  
+  width: 100%;
+  height: 300px;
+  
+  background-color: $dark;
+  border-radius: 30px 30px 0px 0px;
+  
+  .card_reservation_content{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 30px 0;
+  }
+}
+
+.card{
+  width: 265px;
+  height: 185px;
+
+  img{
+    border-radius: 20px;
+  }
+}
+
+.card_body{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  position: relative;
+  bottom: 187px;
+  
+  width: 100%;
+  height: 185px;
+  
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 33.74%, rgba(0, 0, 0, 0) 62.9%);
+  border-radius: 0 0 20px 20px;
+
+  color: $white;
+} 
+
+.card_title{
+  font-size: $medium_fz;
+  font-weight: bold;
+    }
+
+.card_content{
+  display: flex;
+  justify-content: space-between;
+
+  padding: 14px 10px;
+
+  div:first-child{
+    flex-grow: 2;
+  }
+  div:last-child{
+    margin-left: 10px;
+  }
+
+
+      
+}
+
+.card_small{
+  width: 197px;
+  height: 108px;
+
+  margin-top: 12px;
+  margin-bottom: 20px;
+  img{
+    border-radius: 20px;
+  }
+}
+
+.card_small_body{
+  display: flex;
+  
+  padding-bottom: 10px;
+  
+  position: relative;
+  bottom: 111px;
+
+  width: 100%;
+  height: 108px;
+
+  border-radius: 20px;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 33.74%, rgba(0, 0, 0, 0) 62.9%);
+}
+
+.card_small_title{
+  align-self: end;
+
+  width: 100%;
+
+  padding: 0;
+  padding-left: 10px;
+  
+  font-size: $fz;
+  color: $white;
+}
+
+.card_big{
+  width: 338px;
+  height:289px;
+
+  margin: 20px auto;
+  
+  border-radius: 10px;
+  background-color: $white;
+  
+  img{
+    width: 100%;
+    max-height: 184px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+.card_big_header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  position: relative;
+  top: -180px;
+  
+  padding: 0 16px;
+  
+  height: 169px;
+  
+  color: $white;
+  
+  .like{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .card_large_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    margin: 0;
+
+    font-size: $large_fz;
+    font-weight: bold;
+    color: $white
+  }
+}
+
+.card_big_title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_big_content{
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  top: -160px;
+
+  margin: 0 16px;
+
+  p{
+    margin-bottom: 5px;
+    font-size: $xsmall_fz;
+    color: $black_text;
+  }
+}
+
+.card_big_subtitle{
+  margin-bottom: 10px;
+  font-size: $fz;
+  color: $gray;
+}
+
+.card_big_price{
+    align-self: flex-end;
+    
+    font-size: $large_fz;
+    font-weight: bold;
+  }
+
+.card_detail_list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // padding-top: 100px;
+  // padding-bottom: 100px;
+  
+}
+.card_detail{
+  display: flex;
+  flex-direction: column;
+  width: 338px;
+  
+  margin: 20px auto;
+  
+  border-radius: 7px 7px 0 0;
+  background-color: $white;
+  img{
+    width: 338px;
+    height: 184px;
+    background-size: cover;
+    border-radius: 7px 7px 0 0;
+  }
+}
+
+.card_detail_title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 18px 0;
+
+  h2{
+    font-size: $large_fz;
+  }
+  
+ .information{
+    display: flex;
+    align-items: center;
+
+    width: 38px;
+    height: 38px;
+
+    font-size: $medium_fz;
+    color:$gray;
+    text-decoration: none;
+
+    background: -webkit-linear-gradient(99.42deg, #FF6161 14.73%, #FF61DC 97.52%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+}
+
+.card_detail_description{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+
+  ul{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  li{
+    display: flex;
+    margin: 8px;
+    color: $black_text;
+    
+    div:first-child{
+      display: flex;
+      justify-content: center;
+      width: 50px;
+    }
+
+  }
+}
+
+.card_detail_footer{
+display: flex;
+justify-content: space-evenly ;
+align-items: center;
+
+margin-top: 28px;
+margin-bottom: 21px;
+
+  h3{
+    font-size: $large_fz;
+    margin-bottom: 5px;
+  }
+
+  p{
+    font-size: $small_fz;
+    color: $gray;
+  }
+}
+
+.card_visa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  width: 340px;
+  height: 198px;
+  
+  margin-top: 50px;
+
+  background: linear-gradient(93.37deg, #FF6161 14.73%, #FF61DC 97.52%);
+  border-radius: 10px;  
+}
+
+.card_visa_logo{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.card_visa_number, .card_visa_name{
+  padding: 0 22px;
+  font-family: 'Dosis', sans-serif;
+  font-size: $xlarge_fz;
+  color: $white;
+}
+
+.card_visa_name{
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0;
+  padding: 0;
+}
+
+.card_confirmation{
+  display: flex;
+  flex-direction: column;
+    
+  width: 340px;
+  height: 198px;
+  
+  margin-top: 50px;
+
+  img{
+    border-radius: 10px;
+    background-size: cover;
+  }
+}
+
+.card_confirmation_header{
+  position: relative;
+  top: -160px;
+  display: flex;
+  justify-content: right;
+  margin-right: 18px;
+}
+
+.card_confirmation_title{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -60px;
+
+  margin-right: 18px;
+    h2{
+      color: $white;
+    }
+}

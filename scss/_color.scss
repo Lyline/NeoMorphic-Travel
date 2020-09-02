@@ -1,0 +1,25 @@
+//Background
+$dark:#191A1D;
+$light: #F5F5F5;
+$default: #E3E6EC;
+$device_color: #4E4E4E;
+
+//Font
+$white:#FFF;
+$black_text: #393939;
+
+$gray: #999;
+$gray_dark: #616167;
+$gray_light: #DFDEDE;
+
+//color
+$orange: #FF6161;
+$pink: #FF61DC;
+
+body{
+  background-color: $default;
+}
+
+.white{
+  color: $white;
+}

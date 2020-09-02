@@ -1,0 +1,17 @@
+.pill_small{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  width: 50px;
+  height: 23px;
+  
+  background: linear-gradient(94.27deg, #FF6161 14.73%, #FF61DC 97.52%);
+  box-shadow: 0px 10px 40px rgba(248, 161, 112, 0.2);
+  border-radius: 40px;
+  
+  font-size: $xxsmall_fz;
+  font-weight: bold;
+  color: $white;
+  
+}

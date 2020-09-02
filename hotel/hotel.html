@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../js/leaflet.css">
+  
+  <title>NeoMorphic Travel - Hotel</title>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar_setting">
+    <div class="settings">
+      <div>9:41</div>
+      <div><i class="fas fa-signal"></i> <i class="fas fa-wifi"></i> <i class="fas fa-battery-three-quarters"></i></div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header_hotel">
+      <div class="header_hotel_content">
+        <div><a href="../home/search_list.html"><i class="fas fa-angle-left"></i></a></div>
+        <div class="heart"></div>
+      </div>
+      <img src="../img/large/img1.png" alt="" class="img_large">
+    </div>
+    
+    <div  class="thumbnail_list">
+        <img src="../img/thumbnail/img1.png" alt="" class="thumbnail">
+        <img src="../img/thumbnail/img2.png" alt="" class="thumbnail">
+        <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="thumbnail">
+        <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="thumbnail">
+        <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="thumbnail">
+        <div class="thumbnail">
+          <img src="../img/thumbnail/img3.png" alt="" class="thumbnail">
+          <p class="thumbnail_notification">+33</p>
+        </div>
+    </div>
+  </header>
+
+
+  <div class="flex_space-between">
+    <h2>Mountain Resort</h2>
+    <div class="pill_small star">4.5</div>
+  </div>
+  
+  <div id="hotelMap"></div>
+  
+  <main class="main">
+  
+    <section class="margin-bottom">
+      <div class="flex">
+        <div class="btn_small map-marker"></div>
+        <p>Waikiki, HI 123456, Honolulu</p>
+      </div>
+      <div class="flex">
+        <div class="btn_small walking"></div>
+        <p>3.2 km from centre</p>
+      </div>
+      <a href="./room.html" class="btn_color_big">Select rooms</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav class="navbar">
+      <a href="../index.html" class="btn_nav_active"><i class="fas fa-home"></i></a>
+      <a href="../search/initial.html" class="btn_nav"><i class="fas fa-search"></i></a>
+      <a href="../miscellaneous/notification.html" class="btn_nav"><i class="fas fa-bell"></i></a>
+      <a href="../miscellaneous/user.html" class="btn_nav"><i class="fas fa-user"></i></a>
+    </nav>
+  </footer>
+  </div>
+  <script type="text/javascript" src="../js/leaflet.js"></script>
+  <script type="text/javascript" src="../js/mapHotel.js"></script>
+</body>
+</html>

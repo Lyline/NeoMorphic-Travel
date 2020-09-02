@@ -1,0 +1,22 @@
+.carousel{
+  margin: 50px 18px;
+  margin-top: 110px;
+}
+
+.carousel_map{
+  position: relative;
+  margin: 0;
+  z-index: 2;
+  top: -158px;
+}
+
+.carousel_items {
+  display: flex;
+  overflow-x:scroll;
+  overflow-y: hidden;
+  margin-top: 15px;
+}
+
+.carousel_item {
+  margin-left: 20px;
+}

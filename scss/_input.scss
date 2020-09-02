@@ -1,0 +1,153 @@
+@import "_color.scss";
+@import "_icon.scss";
+
+.input{
+  width: 90%;
+  height: 50px;
+
+  margin: 20px auto;
+  padding-left: 18px;
+
+  border:none;
+  border-radius: 30px;
+  background: #E6E9EF;
+  box-shadow: inset -4px -4px 5px #FFFFFF, inset 4px 4px 5px #D1D9E6;
+
+}
+
+.input_dark, .input_select_dark{
+  display: flex;
+ 
+  width: 220px;
+  height: 50px;
+ 
+  padding: 0 16px;
+  margin: 12px 0;
+  
+  background: #1E1E1F;
+  border: none;
+  border-radius: 30px;
+  box-shadow: inset -5px -5px 10px #242529, inset 5px 5px 10px #0A0A0A;
+
+  color: $gray;
+}
+
+.input_select_dark{
+  @include caret-down;
+
+  display: flex;
+  align-items: center;
+
+  width: 100px;
+  height: 50px;
+  margin: 12px 0px;
+  
+  
+
+  select{
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+      
+    color:$gray;
+  }
+}
+
+.input_select{
+  @include caret-down;
+
+  display: flex;
+  align-items: center;
+  
+  height: 50px;
+  margin: 12px 0px;
+ 
+  color: $gray;
+  
+  select{
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    color:$black_text;
+    font-size: $fz;
+  }
+}
+
+input[type=checkbox]{
+  display: inline-block;
+  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+
+  margin: 10px 18px;
+  vertical-align: middle;
+}
+
+input[type=checkbox], input[type=checkbox]:checked {
+  width: 24px;
+  height: 24px;
+  
+  line-height: 24px;
+
+  background: #E3E6EC;
+  box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.5), 4px 4px 5px #D1D9E6;
+  border-radius: 5px;
+  
+}
+
+input[type=checkbox]:checked {
+  @include check;
+ 
+  background: #E3E6EC;  
+  box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.5), 4px 4px 5px #D1D9E6;
+  border-radius: 10px;
+    
+}
+
+.label_checkbox{
+  line-height: 24px;
+  color:$black_text;
+}
+
+.card_save{
+  align-self: start;
+  margin-left: 18px;
+}
+
+.input_block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  position: fixed;
+  width: 340px;
+  
+  z-index: 2;
+
+  padding-left: 18px;
+  margin: 0 auto; 
+
+  border:none;
+  border-radius: 30px;
+  background: #E6E9EF;
+  box-shadow: inset -4px -4px 5px #FFFFFF, inset 4px 4px 5px #D1D9E6;
+  
+  color: $black_text;
+}
+
+.input_search{
+  position: relative;
+  
+  width: 340px;
+  height: 50px;
+  padding-left: 18px;
+
+  background-color: transparent;
+  border: none;
+}

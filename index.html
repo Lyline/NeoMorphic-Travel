@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>NeoMorphic Travel - Home</title>
+</head>
+<body>
+  <div class="container_light">
+    
+  <div class="topbar_setting">
+    <div class="settings">
+      <div>9:41</div>
+      <div><i class="fas fa-signal"></i> <i class="fas fa-wifi"></i> <i class="fas fa-battery-three-quarters"></i></div>
+    </div>
+  </div>
+  
+  <header class="header_home">
+    
+    <h1 class="white">Find place that gives
+        you ultimate calm</h1>
+    
+    <div class="card_reservation">
+      <form>
+        <div class="card_reservation_content">
+          <div>
+          <input type="text" id="place_reservation_search" class="input_dark" placeholder="Place">
+          <input type="text" id="date_reservation_search"class="input_dark" placeholder="Date">
+          </div>
+
+          <div>
+            <label class="input_select_dark"  for="guest">
+              <select name="guests" id="guest_reservation_search">
+                <option value="">Guests</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">more...</option>
+              </select>
+            </label>
+
+            <label class="input_select_dark"  for="">
+              <select name="nights" id="night_reservation_search">
+                <option value="">Nights</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">more...</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <a href="./home/search_list.html" class="btn_color_big">Search a room</a>
+      </form>
+
+    </div>
+  </header>
+  <main>
+    <section class="carousel">
+      <h3 class="carousel_title">Recommanded</h3>
+      <div class="carousel_items">
+        <div class="carousel_item">
+          <figure class="card">
+            <a href="./hotel/hotel.html">
+              <img src="./img/medium/img1.png" alt="">
+              <figcaption class="card_body">
+                <h1 class="card_title">Lux Hotel with a pool</h1>
+                <div class="card_content">
+                  <div>Dubai</div>
+                  <div>$700~</div>
+                  <div class="star">4.5</div>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class="carousel_item">
+          <figure class="card">
+            <a href="./hotel/hotel.html">
+            <img src="./img/medium/img2.png" alt="">
+              <figcaption class="card_body">
+                <h1 class="card_title">Sunset Hotel</h1>
+                <div class="card_content">
+                  <div>Venice</div>
+                  <div>$800~</div>
+                  <div class="star">4.2</div>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+  <footer>
+    <nav class="navbar">
+      <a href="index.html" class="btn_nav_active"><i class="fas fa-home"></i></a>
+      <a href="./search/initial.html" class="btn_nav"><i class="fas fa-search"></i></a>
+      <a href="./miscellaneous/notification.html" class="btn_nav"><i class="fas fa-bell"></i></a>
+      <a href="./miscellaneous/user.html" class="btn_nav"><i class="fas fa-user"></i></a>
+    </nav>
+  </footer>
+</div>
+</body>
+</html>

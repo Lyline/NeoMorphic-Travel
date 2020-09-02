@@ -1,0 +1,30 @@
+@import"_color.scss";
+
+
+.container, .container_dark, .container_light{
+  width: 100%;
+  
+  margin-right: auto;
+  margin-left: auto;
+  
+
+}
+
+.container{
+  background-color: $default;
+}
+
+.container_light{
+  background-color: $light;
+}
+
+.container_dark{
+  
+  background-color: $dark;
+  margin: 20px 0;
+  padding: 40px 0;
+}
+
+.container_transparent{
+  background-color: transparent;
+}
